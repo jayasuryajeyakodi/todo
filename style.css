@@ -1,0 +1,88 @@
+.container{
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    background-color: white;
+}
+.list-title{
+    background-color: rgb(43, 116, 250);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+.list-item-container{
+    color: white;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 30px;
+}
+.list-item-container:nth-child(odd){
+    background-color: rgba(250, 71, 0, 0.527);
+}
+
+.list-item-container:nth-child(even){
+    background-color: rgba(0, 253, 106, 0.911);
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+
+
+.hide{
+    width:0px;
+    display: none;
+}
+
+body{
+    background: linear-gradient(rgb(0, 119, 255), rgb(0, 225, 255))
+}
+
+html, body{
+    height: 100%;
+}
+
+#added-text{
+    width:100%;
+    box-sizing: border-box;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    border-color: transparent;
+}
+
+.list-item{
+    padding-left: 20px;
+    height: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.btn-title{
+    float:right;
+    margin-right: 10px;
+    background-color: transparent;
+    border: 0px;
+    outline: none;
+    font-size: 20px;
+    
+}
+.delete-list{
+    box-sizing: border-box;
+    padding: 0px;
+    width: 0px;
+    border:0px;
+    height: 100%;
+    overflow: hidden;
+}
+.list-item-container:hover button.delete-list{
+    width: 50px;
+    transition: width .5s ;
+
+}
